@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*FONTES*/
+@font-face {
+    font-family:'Montserrat-Bold';
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:'Montserrat-Regular';
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+/*CORES*/
+
+/* Reset de página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BFD1E5;
+    font-family: 'Montserrat-Regular', sans-serif;;
+}
