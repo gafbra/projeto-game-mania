@@ -51,11 +51,13 @@ header .sociais {
 header .logo-instagram {
     width: 50px;
     height: 50px;
+    /*MUDAR LOGO DO INSTAGRAM E FACEBOOK PARA DEIXAR REDONDO COM FORMA DE BOTÃO BOX-SHADOW*/
 }
 
 header .logo-facebook {
     width: 57px;
     height: 50px;
+    
 }
 
 header .botoes {
@@ -78,6 +80,12 @@ header .botoes .cadastre {
     font-size: 1em;
     color: white;
     border-color: #ED474A;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
+}
+
+header .botoes .cadastre:hover {
+    background-color: #a83133;
+    border-color: #a83133;
 }
 
 header .botoes .login {
@@ -90,6 +98,13 @@ header .botoes .login {
     color: white;
     border-color: #ED474A;
     margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
+}
+
+
+header .botoes .login:hover {
+    background-color: #a83133;
+    border-color: #a83133;
 }
 
 header .carrinho{
@@ -97,6 +112,7 @@ header .carrinho{
     height: 30px;
     align-self: start;
     margin-left: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
     
 }
 
@@ -135,7 +151,46 @@ nav a:hover {
     object-fit: contain;
 }
 
+.carousel-control-prev-icon {
+    background-color: transparent;
+}
+
+.carousel-control-next-icon {
+    background-color: transparent;
+}
+
+.carousel-indicators {
+    background-color: transparent;
+}
+/*PRODUTOS*/
+main .produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+}
+
+.card .btn-buy {
+    background-color: #ED474A;
+    border: 1px solid #ED474A;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+}
+
+
 /*CONTATOS*/
+
+.contatos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 .contatos .icones {
     width: 20px;
     height: 20px;
