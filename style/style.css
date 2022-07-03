@@ -185,13 +185,38 @@ main .produtos{
 
 /*CONTATOS*/
 
-.contatos {
+.localizacao {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.contatos .icones {
+.localizacao .icones {
     width: 20px;
     height: 20px;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.tel {
+    display: flex;
+    flex-direction: row;
+}
+
+.whats {
+    display: flex;
+    flex-direction: row;
+}
+
+footer p{
+    background-color: #232528;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
 }
