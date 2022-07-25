@@ -26,7 +26,7 @@
 header .principal {
     height: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px; /* para centralizar o site*/
     margin: 0 auto; /*para centralizar o site*/
@@ -172,6 +172,22 @@ main .produtos{
 
 .card {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-img-top {
+    background-color: white;
+}
+
+.card-title {
+    background-color: white;
+}
+
+.card-text {
+    background-color: white;
 }
 
 .card .btn-buy {
