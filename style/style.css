@@ -10,253 +10,30 @@
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
-/*CORES*/
-
 /* Reset de página */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+    font-family: 'Montserrat-Regular', sans-serif;
     background-color: #BFD1E5;
-    font-family: 'Montserrat-Regular', sans-serif;;
+}
+
+.container-fluid {
+    padding: 0;
 }
 
 .container {
-    max-width: 1200px;
+    padding: 0;
 }
 
-/*CABEÇALHO*/
-header .principal {
-    height: 150px;
+.logoGameMania {
+    width: 150px;
+}
+
+.flex-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* para centralizar o site*/
-    margin: 0 auto; /*para centralizar o site*/
-}
-
-header .logo {
-    width: 200px;
-}
-
-header .center {
-    display: flex;
-    flex-direction: column-reverse;
-    
-}
-
-header .sociais {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 40px;
-}
-
-header .logo-instagram {
-    width: 50px;
-    height: 50px;
-    /*MUDAR LOGO DO INSTAGRAM E FACEBOOK PARA DEIXAR REDONDO COM FORMA DE BOTÃO BOX-SHADOW*/
-}
-
-header .logo-facebook {
-    width: 57px;
-    height: 50px;
-    
-}
-
-header .botoes {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-header .config-botoes {
-    display: flex;
-    justify-content: stretch;
-}
-
-header .botoes .cadastre {
-    border-radius: 8px;
-    background-color: #ED474A;
-    width: 120px;
-    height: 30px;
-    font-family: 'Montserrat-Bold';
-    font-size: 1em;
-    color: white;
-    border-color: #ED474A;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
-}
-
-header .botoes .cadastre:hover {
-    background-color: #a83133;
-    border-color: #a83133;
-}
-
-header .botoes .login {
-    border-radius: 8px;
-    background-color: #ED474A;
-    width: 90px;
-    height: 30px;
-    font-family: 'Montserrat-Bold';
-    font-size: 1em;
-    color: white;
-    border-color: #ED474A;
-    margin-top: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
-}
-
-
-header .botoes .login:hover {
-    background-color: #a83133;
-    border-color: #a83133;
-}
-
-header .carrinho{
-    width: 30px;
-    height: 30px;
-    align-self: start;
-    margin-left: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
-    
-}
-
-/*MENU BAR*/
-
-main .menu-bar {
-    background-color: #232528;
-}
-
-.menu {
-    background-color: #232528;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-nav a {
-    background-color: #232528;
-    color:white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Montserrat-Bold';  
-}
-nav a:hover {
-    color: grey;
-}
-
-/*CAROUSEL*/
-
-.carousel-item {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-}
-
-.carousel-control-prev-icon {
-    background-color: transparent;
-}
-
-.carousel-control-next-icon {
-    background-color: transparent;
-}
-
-.carousel-indicators {
-    background-color: transparent;
-}
-/*PRODUTOS*/
-main .produtos{
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-    
-}
-
-main .produtos h2{
-    font-family:'Montserrat-Bold';
-    color: white;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.504);
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-
-}
-
-.painel-produtos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.card {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-.card-body {
-    background-color: white;
-}
-
-.card-img-top {
-    background-color: white;
-}
-
-.card-title {
-    background-color: white;
-}
-
-.card-text {
-    background-color: white;
-}
-
-.card .btn-buy {
-    background-color: #ED474A;
-    border: 1px solid #ED474A;
-    width: 100%;
-    text-transform: uppercase;
-    font-family: 'Montserrat-Bold';
-}
-
-
-/*CONTATOS*/
-
-.localizacao {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.localizacao .icones {
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-    margin-right: 4px;
-}
-
-.email {
-    display: flex;
-    flex-direction: row;
-}
-
-.tel {
-    display: flex;
-    flex-direction: row;
-}
-
-.whats {
-    display: flex;
-    flex-direction: row;
-}
-
-footer p{
-    background-color: #232528;
-    color: white;
-    text-align: center;
-    border: 1px solid black;
 }
