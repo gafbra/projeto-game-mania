@@ -17,23 +17,125 @@
     box-sizing: border-box;
 
     font-family: 'Montserrat-Regular', sans-serif;
-    background-color: #BFD1E5;
 }
 
 .container-fluid {
     padding: 0;
+   
 }
-
 .container {
     padding: 0;
+
 }
 
 .logoGameMania {
-    width: 150px;
+    width: 100px;
 }
 
-.flex-box {
+header {
+    border: 1px solid black;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: #BFD1E5;
+}
+
+.header-top {
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.header-left-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.header-center-one {
+    width: 60%;
+    align-items: center;
+
+}
+.header-center-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-right {
+    margin-left: 10px;
+}
+
+header .barraLink {
+    background-color: #232528;
+    
+}
+
+.barraPesquisa {
+    margin-bottom: 10px;
+}
+
+.btn-cadastre {
+    margin-bottom: 10px;
+}
+.header-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: gray
+}
+
+.card-background {
+    background-color: #BFD1E5;
+}
+
+.card-flex {
+    display: flex;
+
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-img {
+    width: 200px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn-comprar {
+    border: 1px solid black;
+    padding: 6px 45px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
