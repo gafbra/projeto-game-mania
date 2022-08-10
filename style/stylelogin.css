@@ -56,7 +56,7 @@ body {
 
 /*pinta a borda somente da primeira linha*/
 .linha:first-of-type {
-    border-bottom: 1px solid #a0824d;
+    border-bottom: 1px solid #ff3f3f;
 
 
 }
