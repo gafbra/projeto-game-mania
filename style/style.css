@@ -2,11 +2,12 @@
 
 /*FONTES*/
 @font-face {
-    font-family:'Montserrat-Bold';
+    font-family: 'Montserrat-Bold';
     src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
 }
+
 @font-face {
-    font-family:'Montserrat-Regular';
+    font-family: 'Montserrat-Regular';
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
@@ -22,11 +23,12 @@
 .container-fluid {
     padding: 0;
     background-color: #BFD1E5;
-   
+
 }
+
 .container {
     padding: 0;
-    
+
 
 }
 
@@ -51,11 +53,11 @@ header {
     align-items: center;
 }
 
-.pesquisa{
+.pesquisa {
     margin-bottom: 10px;
 }
 
-.barraPesquisa{
+.barraPesquisa {
     border-radius: 5px;
     border: none;
 }
@@ -76,16 +78,32 @@ header {
     padding-left: 10px;
 }
 
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #0d6efd;
+    margin: 8px;
+    border-radius: 5px;
+}
+
 .navbar {
     background-color: #232528;
-    
+
 }
+
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav a{
+
+nav a {
     background-color: #232528;
     color: white;
     text-decoration: none;
@@ -127,4 +145,83 @@ nav a:hover {
     padding: 6px 45px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+}
+
+
+/* TABLETS */
+@media all and (max-width: 991px) {
+    .logoGameMania {
+        width: 80px;
+    }
+
+
+
+}
+
+/* CELULARES */
+@media all and (max-width: 767px) {
+    .header-left-center {
+        display: none;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos h3{
+        font-size: 16px;
+    }
+
+    .header-flex {
+        justify-content: space-around;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: -80%;
+        width: 80%;
+        height: 100%;
+        z-index: 15;
+       
+        padding: 20px 50px;
+
+        background-color: rgb(35, 37, 40);
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+
+        transition: left 0.4s, opacity 0.5s;
+
+
+
+    }
+
+    .mostraEscondeMenu {
+        left: 0 !important;
+    
+    }
+         
+
+    .nava {
+        border-left: 3px dotted white;
+       
+        padding: 20px;
+        width: 40%;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+
+    }
 }

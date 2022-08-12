@@ -27,7 +27,7 @@
         <img class="logoGameMania" src="imagens/logogame.png" alt="Logo Game Mania">
       </div>
 
-      <div class="header-left-center col-3">
+      <div class="header-left-center col-4">
         <div class="pesquisa">
           <input class="barraPesquisa" type="search" placeholder="Pesquisar..." size="20">
           <a href="#">
@@ -46,7 +46,7 @@
         </div>
       </div>
 
-      <div class="header-right-center col-5">
+      <div class="header-right-center col-4">
         <button class="btn btn-outline-primary btn-sm btn-cadastre"><b>Cadastre-se</b></button>
         <a href="login.html" class="btn btn-primary btn-sm"><b>Login</b></a>
       </div>
@@ -56,18 +56,26 @@
           <i class="fa-solid fa-cart-shopping"></i>
         </a>
       </div>
+
+      <div id="abreFecha" onclick="abreFechaMenu();" class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
     </div>
   </header>
 
-  <div class="container-fluid navbar">
-    <nav class="container">
-      <a href="#">Games</a>
-      <a href="#">PC Gamer</a>
-      <a href="#">Computador</a>
-      <a href="#">Notebook</a>
-      <a href="#">Celular</a>
+  <div class="container-fluid" >
+    <nav class="container  navbar">
+      <a class="nava" href="#">Games</a>
+      <a class="nava" href="#">PC Gamer</a>
+      <a class="nava" href="#">Computador</a>
+      <a class="nava" href="#">Notebook</a>
+      <a class="nava" href="#">Celular</a>
     </nav>
   </div>
+
   <main>
     <!-- carrossel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -122,7 +130,7 @@
         <h3 style="padding-top: 10px;"><b>Novidades</b></h3>
 
         <div class="row">
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -133,7 +141,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -143,7 +151,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -153,7 +161,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -163,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -173,7 +181,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -183,7 +191,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -193,7 +201,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
             <div class="card text-center" style="width: 14rem;">
               <img src="imagens/computador.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -210,7 +218,7 @@
     </div>
 
     <div class="container-fluid p-5">
-      <div class="container d-flex justify-content-around">
+      <div class="container d-flex justify-content-around contato">
         <div class="contatos">
           <h3>Game Mania Ltda - CNPJ XX.XXX.XXX/XXXX-XX</h3>
           <p><i class="fa-solid fa-envelope"></i> email@email.com.br</p>
@@ -228,7 +236,7 @@
   </main>
   
   <footer>
-    gamemania todos os direitos reservados
+    Game Mania todos os direitos reservados.
   </footer>
 
 
@@ -236,6 +244,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+
+    <script>
+      function abreFechaMenu () {
+        let navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("mostraEscondeMenu");
+      }
+    </script>
 </body>
 
 </html>
