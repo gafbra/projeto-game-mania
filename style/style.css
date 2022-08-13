@@ -37,7 +37,7 @@
 }
 
 header {
-    border: 1px solid black;
+   
     background-color: #BFD1E5;
 }
 
@@ -89,6 +89,10 @@ header {
     background-color: #0d6efd;
     margin: 8px;
     border-radius: 5px;
+}
+
+.backNavBar {
+    background-color: #232528;
 }
 
 .navbar {
